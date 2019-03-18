@@ -17,3 +17,8 @@ function disp(form) {
         });
     } 
 }
+    function FormUser()
+{
+        location.href = 'FormUser.html'
+    }
+
