@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="StyleForm1.css">
+    <title>Ателье "Уют"</title>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+    <div class="Form">
+        <div class="name">
+            <form id="form1" class="nav">
+                <label for="username">ИМЯ ПОЛЬЗОВАТЕЛЯ</label>
+                <input class="form-styling" type="text" name="username">
+                <label for="password">ПАРОЛЬ</label>
+                <input class="form-styling" type="password" name="password">
+                <input class="But" type="button" value="Вход" onclick="location.href='FormUser.html'" />
+            </form>
+            <form id="form2" class="nav1">
+                <label for="username">ФАМИЛИЯ</label>
+                <input class="form-styling" type="text" name="username">
+                <label for="username">ИМЯ</label>
+                <input class="form-styling" type="text" name="username">
+                <label for="username">ОТЧЕСТВО</label>
+                <input class="form-styling" type="text" name="username">
+                <label for="username">ЛОГИН</label>
+                <input class="form-styling" type="text" name="username">
+                <label for="password">ПАРОЛЬ</label>
+                <input class="form-styling" type="password" name="password">
+                <label for="username">РОЛЬ</label>
+                <select class="selectvalue">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <input class="But" type="button" value="Регистрация" onclick="location.href='FormUser.html'">
+            </form>
+            <div class="Buttons">
+                <input class="But" type="button" value="Вход" onclick="disp(document.getElementById('form1'))" />
+                <input class="But" type="button" value="Регистрация" onclick="disp(document.getElementById('form2'))" />
+            </div>
+            <div class="name1"></div>
+        </div>
+    </div>
+    <script src="JS/anime.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>
